@@ -1,21 +1,22 @@
-# Image Processing with Fourier and Laplacian Filters
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/Tkinter-4B8BBE?style=for-the-badge&logo=python&logoColor=white" alt="Tkinter">
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+</p>
 
-A graphical application for processing and filtering images using spatial and frequency domain techniques, built with Python, OpenCV, and Tkinter.
+# Image Processing with Fourier & Laplacian Filters
 
-## Description
+*A graphical desktop application for processing and filtering images using spatial and frequency domain techniques, built with Python, OpenCV, and Tkinter.*
 
-This project allows you to explore image enhancement and noise filtering using several key operations:
+## 🌟 Description
 
-- Visualization of the Fourier Transform magnitude spectrum  
-- Addition and removal of sinusoidal noise using notch filters  
-- Application of the Laplacian operator for edge detection  
-- Interactive blending between original and filtered images  
-- Simple Tkinter GUI for loading, displaying, and saving images
+This project allows you to explore digital image enhancement, noise generation, and frequency filtering. It provides an interactive GUI to visualize how images behave when transformed into the frequency domain using the **Discrete Fourier Transform (DFT)**.
 
-These functionalities are ideal for experimenting with frequency-based filtering and sharpening techniques.
-
-## Demo
-
-The following example shows various processing steps applied to an input image:
-
-![Demo](demo.png)
+### Key Features
+* **Fourier Transform Visualization:** Compute and display the magnitude spectrum of any loaded image.
+* **Noise Generation:** Add structured sinusoidal noise to simulate periodic interference.
+* **Notch Filtering:** Manually apply frequency-domain filters to isolate and remove sinusoidal noise from the spectrum.
+* **Edge Detection:** Apply the Laplacian operator in the spatial domain for image sharpening and edge extraction.
+* **Interactive Blending:** Dynamically blend between original and filtered images.
+* **GUI Interface:** Simple Tk
